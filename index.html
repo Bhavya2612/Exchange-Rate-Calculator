@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Calculator</title>
+    <link rel="stylesheet" href="style.css" class="link" id="link">
+
+</head>
+<body>
+    <img src="img/money.png" alt="">
+    <h1>Exchange Rate Calculator</h1>
+    <p>Choose the currency and amount to get the exchange rate!</p>
+
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
+                <option value="AED">AED</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BSD">BSD</option>
+                <option value="CHF">CHF</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="FJD">FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HUF" selected>HUF</option>
+            </select>
+            <input type="number" name="" id="amount-one" placeholder="0" value="1">
+
+        </div>
+        <div class="swap-rate-container">
+            <button class="btn" id="rate">SWAP
+
+            </button>
+            <div class="rate" id="rate"></div>
+        
+
+        </div>
+
+
+
+        <div class="currency">
+            <select id="currency-two">
+                <option value="AED">AED</option>
+                <option value="AUD">AUD</option>
+                <option value="BGN">BGN</option>
+                <option value="BSD">BSD</option>
+                <option value="CHF">CHF</option>
+                <option value="CZK">CZK</option>
+                <option value="DKK">DKK</option>
+                <option value="FJD" selected>FJD</option>
+                <option value="GBP">GBP</option>
+                <option value="GTQ">GTQ</option>
+                <option value="HUF">HUF</option>
+            </select>
+            <input type="number" name="" id="amount-two" placeholder="0">
+
+        </div>
+   
+           </div>
+
+    <script class="script" id="script" src="script.js"></script>
+</body>
+</html>
